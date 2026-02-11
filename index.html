@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | GitHub Project</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #667eea;
+            border-bottom: 3px solid #764ba2;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        .avatar {
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border-radius: 50%;
+            margin-right: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 40px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .skill {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 14px;
+        }
+        .projects {
+            list-style: none;
+            margin-top: 20px;
+        }
+        .projects li {
+            background: #f5f5f5;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #764ba2;
+        }
+        .github-link {
+            display: inline-block;
+            background: #333;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 20px;
+            transition: transform 0.3s;
+        }
+        .github-link:hover {
+            transform: translateY(-3px);
+            background: #000;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <div class="avatar">👤</div>
+            <div>
+                <h1>Jane Developer</h1>
+                <p>🌟 Aspiring Web Developer | GitHub Newbie</p>
+            </div>
+        </div>
+        
+        <div>
+            <h2>About Me</h2>
+            <p>I'm learning to code and just created my first GitHub account! This is my first HTML file uploaded to GitHub. I'm excited to learn more about web development and version control.</p>
+            
+            <div class="skills">
+                <span class="skill">HTML5</span>
+                <span class="skill">CSS3</span>
+                <span class="skill">JavaScript</span>
+                <span class="skill">Git Basics</span>
+                <span class="skill">VS Code</span>
+            </div>
+            
+            <h2>My First GitHub Projects</h2>
+            <ul class="projects">
+                <li>📁 <strong>hello-world:</strong> My first repository with a README file</li>
+                <li>📁 <strong>sample-txt:</strong> Learning to upload and commit text files</li>
+                <li>📁 <strong>portfolio-html:</strong> This portfolio page - my first HTML file on GitHub!</li>
+            </ul>
+            
+            <h2>Today's GitHub Achievement</h2>
+            <p>✅ Created GitHub account<br>✅ Uploaded text files<br>✅ Made changes and committed<br>✅ Uploaded HTML file</p>
+            
+            <a href="#" class="github-link">🔗 View My GitHub Profile</a>
+        </div>
+        
+        <footer>
+            <p>Created on February 2026 | Part of GitHub learning journey</p>
+            <p>File committed: portfolio.html</p>
+        </footer>
+    </div>
+</body>
+</html>
